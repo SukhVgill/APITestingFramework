@@ -22,7 +22,7 @@ public class CircuitTest extends BaseTest{
 	
 	@Test
 	public void getCircuitTest() {
-		Response circuitResponse = restClient.get(CIRCUIT_ENDPOINT+"/2017/circuits.json", false, false);
+		Response circuitResponse = restClient.get(CIRCUIT_ENDPOINT+"/2017/circuits.json", false, true);
 		
 		circuitResponse
 				.then()

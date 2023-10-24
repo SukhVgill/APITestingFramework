@@ -22,7 +22,7 @@
 	</test>
 	 -->
 	
-	 <test name="Go Rest API Test">
+	 <!-- <test name="Go Rest API Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 
 		<classes>
@@ -48,9 +48,9 @@
 			
 		</classes>
 	</test>
+ -->
 
-
-	<!-- <test name="Circuit API Test">
+	<test name="Circuit API Test">
 		<parameter name="baseURI" value="http://ergast.com" />
 
 		<classes>
@@ -59,7 +59,7 @@
 	</test>
 
 
-	<test name="Req Res API Test">
+<!-- 	<test name="Req Res API Test">
 		<parameter name="baseURI" value="https://reqres.in" />
 
 		<classes>
